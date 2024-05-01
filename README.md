@@ -19,3 +19,29 @@ Dentro da sua pasta do projeto, crie um arquivo JavaScript que conterá o códig
 
 No arquivo server.js, você pode escrever o código para configurar e iniciar o seu servidor. Aqui está um exemplo básico usando o Express:
 
+
+
+
+---
+
+meu-projeto-backend/
+  |- node_modules/      # Pasta onde as dependências do projeto são instaladas
+  |- src/               # Pasta que contém o código-fonte do projeto
+  |   |- controllers/   # Pasta para controladores, que lidam com a lógica de roteamento e manipulação de solicitações
+  |   |- models/        # Pasta para modelos, que representam os dados do aplicativo
+  |   |- routes/        # Pasta para rotas, que definem os endpoints da API e vinculam solicitações HTTP a controladores
+  |   |- app.js         # Arquivo principal do aplicativo, onde o servidor Express é configurado e inicializado
+  |- config/            # Pasta para arquivos de configuração, como configurações de banco de dados, variáveis de ambiente, etc.
+  |- tests/             # Pasta para testes automatizados
+  |- .gitignore         # Arquivo que especifica os arquivos e pastas a serem ignorados pelo git
+  |- package.json       # Arquivo que contém metadados e dependências do projeto
+  |- package-lock.json  # Arquivo gerado pelo npm para manter a árvore de dependências exata
+
+
+conectar o projeto a um banco sqllite 
+
+instalando o sqllite no computador
+sudo apt install sqlite3
+
+add dependencia ao projeto
+npm install sqlite3
