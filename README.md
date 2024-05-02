@@ -45,3 +45,14 @@ sudo apt install sqlite3
 
 add dependencia ao projeto
 npm install sqlite3
+
+
+para ter algo como jpa exite ORMs para node e express
+Sequelize: Sequelize é um ORM completo e maduro para Node.js que suporta vários bancos de dados relacionais, incluindo MySQL, PostgreSQL, SQLite e outros. Ele fornece uma API poderosa e flexível para trabalhar com bancos de dados, incluindo suporte a migrações, associações, validações e muito mais.
+TypeORM: TypeORM é outro ORM popular para Node.js que oferece suporte a vários bancos de dados, incluindo MySQL, PostgreSQL, SQLite e outros. Ele permite definir modelos de dados usando classes TypeScript e fornece uma ampla gama de recursos, incluindo associações, validações, suporte a transações e muito mais.
+Bookshelf.js: Bookshelf.js é um ORM leve e flexível para Node.js baseado no Knex.js. Ele foi projetado para funcionar bem com o Express e oferece suporte a vários bancos de dados, incluindo PostgreSQL, MySQL e SQLite. Ele permite definir modelos de dados usando classes JavaScript e oferece uma API simples e expressiva para trabalhar com bancos de dados.
+Objection.js: Objection.js é outro ORM construído no topo do Knex.js que oferece uma API semelhante ao ActiveRecord do Ruby on Rails. Ele fornece suporte a associações, validações, consultas avançadas e muito mais.
+
+vou utilizar o sequelize
+
+npm install sequelize
